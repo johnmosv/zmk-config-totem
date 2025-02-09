@@ -88,7 +88,7 @@
          &kp Q       &kp W       &kp E                       &kp R        &kp T        &kp Y               &kp U        &kp I              &kp O       &kp P
          &mt LGUI A  &mt LALT S  &mt LCTRL D                 &mt LSHFT F  &kp G        &kp H               &mt RSHFT J  &mt RCTRL K        &mt RALT L  &mt RGUI SEMI
 &kp ESC  &kp Z       &kp X       &kp C                       &kp V        &kp B        &kp N               &kp M        &kp COMMA          &kp DOT     &kp FSLH       &kp SINGLE_QUOTE
-                                 &mt LEFT_COMMAND BACKSPACE  &lt 1 TAB    &kp LCTRL    &mt LEFT_ALT SPACE  &lt 2 ESC    &mt LSHIFT RETURN
+                                 &mt LEFT_COMMAND BACKSPACE  &lt 2 TAB    &kp LCTRL    &mt LEFT_ALT SPACE  &lt 1 ESC    &mt LSHIFT RETURN
             >;
         };
 
@@ -120,7 +120,7 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        sim_layer {
+        code {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "SYM";
@@ -137,10 +137,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS        &kp RA(U)   &kp SQT     &kp DQT
-        &kp RA(A)    &trans       &kp RA(S)  &trans    &trans       &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
-                                  &trans     &gif      &mo 3        &trans        &kp C_PP        &trans
+           &kp GRAVE        &kp F1  &kp F2    &kp F3      &kp F4         &kp CARET  &kp AMPS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp KP_MULTIPLY
+           &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp EQUAL  &kp UNDER  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&kp TILDE  &none            &none   &trans    &trans      &trans         &kp PLUS   &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BSLH         &trans
+                                    &trans    &gif        &mo 3          &trans     &none      &trans
             >;
         };
 
